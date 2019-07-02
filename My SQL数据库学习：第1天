@@ -1,0 +1,28 @@
+#首先连接数据库
+net start mysql
+
+#输入账户和密码
+mysql -u root -p
+
+#展示数据库
+show databases
+
+#创建数据库
+creat database 数据库名
+
+#删除数据库
+drop database 数据库名
+
+#选中数据库
+use 数据库名
+
+#展示表
+show tables
+
+#描述表的结构
+desc 表名
+
+#创建表
+create table 表名（
+  字段1 数据类型 主键或其他要求
+）
